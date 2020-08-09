@@ -47,6 +47,11 @@ Header
 /*----------------------------------
 Header Title
 ------------------------------------*/
+.intro-message {
+	position: relative;
+	padding-top: 11%;
+	padding-bottom: 20%;
+}
 
 .intro-message > h1, h3 {
 	color: #470244;
