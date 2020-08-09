@@ -25,12 +25,16 @@ body {
 	margin: 0;
 }
 
+/*----------------------------------
+Header
+------------------------------------*/
+/* Photo by Delila Ziebart on Unsplash */
 .intro-header {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
-    background: linear-gradient(rgba(72%, 98%, 87%, 0.9), rgba(72%, 98%, 87%, 1.0)), 
-    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/Screen%20Shot%202017-01-02%20at%209.26.36%20PM.png") 
+    /* background: linear-gradient(rgba(72%, 98%, 87%, 0.9), rgba(72%, 98%, 87%, 1.0)),  */
+    background: url("../images/delila-ziebart-3P6E2y2lyus-unsplash.jpg") 
     no-repeat center center;
     background-size: cover;
 }
