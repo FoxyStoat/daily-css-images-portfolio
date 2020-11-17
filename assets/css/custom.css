@@ -28,33 +28,15 @@ body {
 /*----------------------------------
 Header
 ------------------------------------*/
-/* Photo by Delila Ziebart on Unsplash */
+
 .intro-header {
 	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 20px;
-	background: rgba(95, 89, 218, 0.5), url("../images/delila-ziebart-3P6E2y2lyus-unsplash.jpg") 
-	no-repeat bottom;
-	background: -webkit-linear-gradient(top, rgba(95, 89, 218, 0.5), rgba(161, 45, 227, 0.5));
-	background: -moz-linear-gradient(top, rgba(95, 89, 218, 0.5), rgba(161, 45, 227, 0.5));
-	background: linear-gradient(to bottom, rgba(95, 89, 218, 0.5), rgba(161, 45, 227, 0.5)),
-	url("../images/delila-ziebart-3P6E2y2lyus-unsplash.jpg")
-	no-repeat bottom;
-	background-size: cover;
-	color:#000;
-}
-
-/*----------------------------------
-Header Title
-------------------------------------*/
-.intro-message {
-	position: relative;
+	font-weight: 700;
+	color: #470244;
 	padding-top: 11%;
-	padding-bottom: 20%;
 }
 
 .intro-message > h1, h3 {
-	color: #470244;
 	font-weight: 700;
 	font-size: 6.8em;
 }
