@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	font-family: "Titillium Web", "Open Sans", sans-serif;
+	font-family: 'Amatic SC', cursive;
 	/*one Em roughly ten pixels (16 x 62.5% = 10)*/
 	font-size: 62.5%;
 	letter-spacing: 1.5px;
@@ -55,12 +55,11 @@ Header Title
 
 .intro-message > h1, h3 {
 	color: #470244;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 6.8em;
 }
 
 .intro-message > h3 {
 	font-size: 3.5em;
 	margin-top: 20px;
-	font-weight: 400;
 }
