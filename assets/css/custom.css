@@ -31,17 +31,17 @@ Header
 
 .intro-header {
 	text-align: center;
-	font-weight: 700;
 	color: #470244;
 	padding-top: 11%;
 }
 
 .intro-message > h1, h3 {
-	font-weight: 700;
-	font-size: 6.8em;
+	font-size: 4.5em;
+	font-weight: 400;
 }
 
 .intro-message > h3 {
-	font-size: 3.5em;
-	margin-top: 20px;
+	font-size: 1.8em;
+	margin-top: 15px;
+	font-weight: 700;
 }
