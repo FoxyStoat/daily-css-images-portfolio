@@ -35,13 +35,47 @@ Header
 	padding-top: 11%;
 }
 
-.intro-message > h1, h3 {
-	font-size: 4.5em;
+.intro-message > h1 {
+	font-size: 4em;
 	font-weight: 400;
 }
 
 .intro-message > h3 {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	margin-top: 15px;
 	font-weight: 700;
+}
+
+/*-----------------------------------------------------------------------
+Media Queries
+------------------------------------*/
+
+/*----------------------------------
+Tablets
+------------------------------------*/
+
+@media screen and (min-width: 600px) {
+
+	.intro-message > h1 {
+		font-size: 4.5em;
+	}
+
+	.intro-message > h3 {
+		font-size: 2em;
+	}
+}
+
+/*----------------------------------
+Desktops
+------------------------------------*/
+@media screen and (min-width: 950px) {
+
+	.intro-message > h1 {
+		font-size: 8.5em;
+	}
+	
+	.intro-message > h3 {
+		font-size: 4em;
+		font-weight: 400;
+	}
 }
