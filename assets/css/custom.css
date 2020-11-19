@@ -30,6 +30,8 @@ Header
 ------------------------------------*/
 
 .intro-header {
+	display: flex;
+	justify-content: center;
 	text-align: center;
 	color: #470244;
 	padding-top: 11%;
@@ -44,6 +46,23 @@ Header
 	font-size: 1.6em;
 	margin-top: 15px;
 	font-weight: 700;
+	animation: write 3s steps(25);
+	-webkit-animation: write 3s steps(25);
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/*----------------------------------
+Intro Message Animation
+------------------------------------*/
+
+@keyframes write {
+	0% {
+		width: 0ch;
+	}
+	100% {
+		width: 25ch;
+	}
 }
 
 /*-----------------------------------------------------------------------
