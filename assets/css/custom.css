@@ -50,7 +50,7 @@ Header
 	-webkit-animation: write 3s steps(25);
 	overflow: hidden;
 	white-space: nowrap;
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 }
 
 /*----------------------------------
@@ -84,7 +84,7 @@ Intro Message Animation
 }
 
 .thumbnail-img {
-	width: 20em;
+	width: 18em;
 }
 
 /*-----------------------------------------------------------------------
@@ -121,6 +121,6 @@ Desktops
 	}
 
 	.thumbnail-img {
-		width: 40em;
+		width: 25em;
 	}
 }
