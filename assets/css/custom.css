@@ -34,7 +34,7 @@ Header
 	justify-content: center;
 	text-align: center;
 	color: #470244;
-	padding-top: 11%;
+	padding-top: 7%;
 }
 
 .intro-message > h1 {
@@ -78,14 +78,14 @@ Gallery
 
 .figure-container {
 	display: flex;
-	flex-flow: column wrap;
-	padding: 2px;
-	justify-content: space-around;
+	flex-direction: column;
+	margin: 1px;
 	align-items: center;
 }
 
 .project-description {
-	font-size: 2.3em;
+	font-size: 1.8em;
+	font-weight: 700;
 }
 
 .thumbnail-img {
