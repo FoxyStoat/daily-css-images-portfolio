@@ -98,6 +98,44 @@ Gallery
 	margin-bottom: 30px;
 }
 
+/*----------------------------------
+Footer
+------------------------------------*/
+.footer {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	background: rgb(223, 217, 217);
+	color: #470244;;
+	padding: 1em;
+	font-weight: 700;
+}
+
+.social-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.social-container > a:link {
+	margin: 0.2em;
+	padding: 0.5em;
+	color: #470244;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:visited {
+	color:  #470244;
+}
+
+.attribution {
+	font-size: 1.7em;
+}
+
 /*-----------------------------------------------------------------------
 Media Queries
 ------------------------------------*/
