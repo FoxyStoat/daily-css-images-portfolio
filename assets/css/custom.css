@@ -163,15 +163,6 @@ Footer
 .social-container > a:link {
 	margin: 0.2em;
 	padding: 0.5em;
-	color: #470244;
-	font-size: 1.8em;
-	text-decoration: none;
-}
-
-a:hover,
-a:active,
-a:visited {
-	color:  #470244;
 }
 
 .attribution {
